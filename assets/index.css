@@ -70,7 +70,7 @@ img {
   /* ajusta el ancho según sea necesario */
   height: auto;
   /* permite que la altura se ajuste proporcionalmente al ancho */
-  display: block;
+  display: block; /* centrar imagenes */
   margin: 0 auto;
 }
 
