@@ -65,6 +65,14 @@ html {
   }
 }
 
+h1,
+h2 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-align: center;
+}
+
 img {
   width: 250px;
   /* ajusta el ancho según sea necesario */
