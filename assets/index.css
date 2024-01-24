@@ -1,4 +1,6 @@
 
+
+
 /* Header */
 
 .header {
@@ -51,7 +53,7 @@
 
 /* Jumbotron */
 
-body {
+.jumbotron{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -59,7 +61,7 @@ body {
 }
 
 .jumbotron {
-  background-color: #f8f9fa;
+  background-color: #4e9e19;
   padding: 80px;
   text-align: center;
 }
@@ -69,27 +71,29 @@ body {
   margin-bottom: 20px;
 }
 
-.jumbotron p {
-  font-size: 1.2em;
-  color: #6c757d;
-}
-
 
 
 /* Blog */
 
-section {
+/* section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px;
-}
+} */
+.post{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
+}
 .post {
   background-color: #ffffff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 15px;
   padding: 20px;
+  text-align: justify;
   width: 300px;
 }
 
@@ -136,9 +140,71 @@ section {
 
 
 /* footer */
-footer {
-  background-color: #777;
-  padding: 10px;
+.footer{
+  background-color:var(--primary-main);
+  padding: 50px 80px;
+  color:var(--secondary-main);
+}
+
+.footer-row{
+  display:flex;
+  flex-wrap:wrap; /*para que baje en grupo las columnas */
+  justify-content: center;
+}
+
+.footer-links{
+  width: 20%;
+  padding: 0 15px;
+}
+
+.footer-links h6{
+  font-size: 14px;
+  color:var(--secondary-main);
+  margin-bottom: 25px;
+  font-weight: 500;
+  display: inline-block;
+
+}
+
+.footer-links ul {
+ list-style: none; 
+ padding:0;
+}
+
+.footer-links ul li {
+  margin-left: 0; 
+}
+
+.footer-links ul li a {
+  font-size: 14px;
+  text-decoration:none;
+  color:var(--secondary-light);
+  display: block;
+  margin-bottom: 15px; 
+}
+
+.footer-links ul li a:hover {
+  padding-left: 4px;
+}
+.social-links{
+  display:flex;
+}
+.social-links a {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  width: 40px;
+  background-color: var(--primary-dark);
+  margin: 0 10px 10px 0;
   text-align: center;
-  color: white;
+  line-height: 30px; 
+  border-radius: 50%;
+  color: var(--secondary-light);
+  border-color: var(--primary-light);
+  
+}
+
+.social-links a:hover {
+  background-color: var(--primary-light);
 }
