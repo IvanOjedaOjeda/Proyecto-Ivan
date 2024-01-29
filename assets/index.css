@@ -168,7 +168,7 @@ section2 {
 /* footer */
 
 #footer {
-  background-color: #333;
+  background-color: #8e90be;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -198,78 +198,3 @@ section2 {
 
 
 
-/* .footer {
-  background-color: #8e90be;
-  padding: 2% 5%;
-  color: var(--secondary-main);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} */
-
-*
-
-/*px es una medida que siempre en ese espacio , si unos % o rem vh wh puedo adaptalos a cualquier pantalla*/
-.footer-row {
-  display: flex;
-  flex-wrap: wrap;
-  /*para que baje en grupo las columnas */
-  justify-content: center;
-}
-
-.footer-links {
-  width: 20%;
-  padding: 0 15px;
-}
-
-.footer-links h6 {
-  font-size: 14px;
-  color: #ffffff;
-  margin-bottom: 25px;
-  font-weight: 500;
-  display: inline-block;
-
-}
-
-.footer-links ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-links ul li {
-  margin-left: 0;
-}
-
-.footer-links ul li a {
-  font-size: 14px;
-  text-decoration: none;
-  color: #ffffff;
-  display: block;
-  margin-bottom: 15px;
-}
-
-.footer-links ul li a:hover {
-  padding-left: 4px;
-}
-
-.social-links {
-  display: flex;
-}
-
-.social-links a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 40px;
-  width: 40px;
-  background-color: #131212;
-  margin: 0 10px 10px 0;
-  text-align: center;
-  line-height: 30px;
-  border-radius: 50%;
-  color: #ffffff;
-  border-color: #ffffff;
-
-}
-
-.social-links a:hover {
-  background-color: lightblue;
-}
