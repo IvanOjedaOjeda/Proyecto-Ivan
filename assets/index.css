@@ -78,7 +78,7 @@
 #submit-btn {
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+  background-color: dodgerblue;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -159,6 +159,18 @@ section2 {
   background-position: center;
   background-repeat: no-repeat;
   
+}
+
+.img {
+  margin: 15px;
+  padding: 20px;
+  width: 200px;
+
+  align-items: center;
+  /* height: 160px; */
+  vertical-align: bottom; 
+  display: table-cell; 
+
 }
 
 .post {
