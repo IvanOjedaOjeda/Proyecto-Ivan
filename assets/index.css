@@ -166,12 +166,44 @@ section2 {
 
 
 /* footer */
-.footer {
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px; /* Aumenté el margen entre los iconos de redes sociales */
+  font-size: 20px;
+}
+
+#footer p {
+  margin: 0 15px; /* Aumenté el margen entre los elementos de texto */
+}
+
+@media screen and (max-width: 600px) {
+  #footer {
+    padding: 10px;
+  }
+}
+
+
+
+
+/* .footer {
   background-color: #8e90be;
   padding: 2% 5%;
   color: var(--secondary-main);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+} */
 
 *
 
