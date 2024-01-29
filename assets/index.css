@@ -93,10 +93,11 @@ section {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 20px;
-  background-image: url(./img/teamwork.png) ;
+  /* background-image: url(./img/teamwork.png) ; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  text-align: center;
   
 }
 
